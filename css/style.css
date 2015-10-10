@@ -1,0 +1,22 @@
+/* Animate CSS */
+@import "./plugins/animate.css";
+.animate {
+  visibility: hidden;
+}
+/*********************************
+* MIXINS
+*/
+/**********************************
+* Default Values
+*/
+body {
+  heigh: 100%;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/**********************************
+* Main Style
+*/
