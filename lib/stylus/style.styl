@@ -1,0 +1,55 @@
+/* Animate CSS */
+@import "./plugins/animate.css"
+
+.animate {
+   visibility: hidden; // Reset Animate visibility
+}
+
+/*********************************
+* MIXINS
+*/
+ 
+vendor(prop, args)
+	-webkit-{prop} args
+	-moz-{prop} args
+	{prop} args
+ 
+border-radius()
+	vendor('border-radius', arguments)
+
+box-shadow()
+	vendor('box-shadow', arguments)
+
+flex()
+	vendor('flex')
+
+transition()
+	vendor('transition', arguments)
+
+linear-gradient()
+	vendor('linear-gradient', arguments)
+
+filter()
+	vendor('filter', arguments)
+
+transform()
+	vendor('transform', arguments)
+
+
+/**********************************
+* Default Values
+*/
+
+body
+	heigh 100%
+	width 100%
+
+ul
+	margin 0
+	padding 0
+
+
+/**********************************
+* Main Style
+*/
+
