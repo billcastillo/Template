@@ -1,4 +1,4 @@
-# Templates v1.0
+# Templates v1.2
 
 A simple web template for static pages
 Made for my own reference
@@ -35,3 +35,11 @@ Some tools to go along in development
 ## To Do
 * Replace sceletus grid system / framework
 * Make a landing page
+
+
+### Changelog
+
+#### 10/18/2015
+* Minor changes to code
+
+
