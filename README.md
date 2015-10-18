@@ -9,6 +9,7 @@ Made for my own reference
 
 * [Sceletus Framework](http://sceletus.net/)
 * [HTML5 Boilerplate Template](https://html5boilerplate.com/)
+* SEO meta tags
 
 ### Plugins
 
@@ -30,3 +31,7 @@ Some tools to go along in development
 	* Concat
 	* Uglify
 	* Browser-sync
+
+## To Do
+* Replace sceletus grid system / framework
+* Make a landing page
