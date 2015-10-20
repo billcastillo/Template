@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# [Template](https://github.com/billcastillo/Template/tree/gh-pages)
-## Go to branch - [gh-pages](https://github.com/billcastillo/Template/tree/gh-pages)
-=======
-# Templates v1.2
+# Templates v1.0
 
 A simple web template for static pages
 Made for my own reference
@@ -45,6 +41,3 @@ Some tools to go along in development
 
 #### 10/18/2015
 * Minor changes to code
-
-
->>>>>>> gh-pages
