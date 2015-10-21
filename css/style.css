@@ -3,15 +3,22 @@
 .animate {
   visibility: hidden;
 }
+/**********************************
+/* Variables */
 /*********************************
-* MIXINS
-*/
+/* MIXINS */
 /**********************************
 * Default Values
 */
 body {
   heigh: 100%;
   width: 100%;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  background: #f3fcfa;
+}
+.container {
+  margin: 0 auto;
 }
 ul {
   margin: 0;

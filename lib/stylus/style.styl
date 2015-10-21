@@ -5,9 +5,15 @@
    visibility: hidden; // Reset Animate visibility
 }
 
+/**********************************
+/* Variables */
+
+// Fonts
+$os = 'Open Sans','Helvetica','Arial',sans-serif
+
 /*********************************
-* MIXINS
-*/
+/* MIXINS */
+
  
 vendor(prop, args)
 	-webkit-{prop} args
@@ -43,6 +49,12 @@ transform()
 body
 	heigh 100%
 	width 100%
+	font-family $os
+	font-weight 300
+	background #f3fcfa
+
+.container
+	margin 0 auto
 
 ul
 	margin 0
