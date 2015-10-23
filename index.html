@@ -23,7 +23,13 @@
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- ICON FONTS -->
+        <!--
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
         <!-- FONTS -->
@@ -34,30 +40,49 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+        <a class="github animate swing" href="https://github.com/billcastillo/Template"
+        data-wow-delay="3s" target="_blank">
+            <i class="icon ion-social-github"></i>
+            Fork
+        </a>
         <div class="container-fluid">
 
-            <div class="row center-xs middle-xs" style="height:100vh;">
-                <div class="col-md-12 col-lg-10">
-                <p class="box animate slideInUp" data-wow-duration="3s"
-                style="font-size:10rem; font-size:7.5vw; font-weight:300; color:#7C064D">The Template</p>
+            <section class="row center-xs middle-xs
+                    main-section animate slideInUp" data-wow-duration="1.5s">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                    <div class="box">
 
-                <p class="box animate fadeIn" data-wow-duration="1s" data-wow-delay="1s">Make websites quick and fast</p>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div  class="col-xs-10 col-md-10 col-lg-6" style="height:100vh;">
-                    <div class="box animate fadeIn" data-wow-duration="3s">
-                        ayyyy
+                    <h1>
+                        The Template
+                    </h1>
+                    <p class="box">Make a website. Simple. Fast.</p>
+                    <a class="button start" href="#second-section">
+                        START
+                    </a>
+
                     </div>
                 </div>
-            </div>
-            <div style="height:100vh;">
-                <div class="animate fadeIn" data-wow-duration="3s">lmao</div>
-            </div>
+            </section> <!--Main Section End-->
+
+            <section class="row center-xs
+                        second-section animate fadeIn" id="second-section"
+                        data-wow-duration="1.5s" data-wow-delay="1s">
+                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8">
+
+                        <div class="description-card">
+                        <h2>What is it?</h2>
+                        <p class="description">
+                            A collection of basic frameworks, plugins, fonts &amp; icons to help you make websites fast and simple.
+                        </p>
+                        </div>
+                </div>
+            </section> <!--2nd Section End-->
 
         </div> <!--Content End-->
 
+        <p class="footer">
+            Made with <i class="icon ion-ios-heart"></i> by <a href="https://billcastillo.me">BC</a>
+        </p>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

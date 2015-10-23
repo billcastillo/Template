@@ -629,8 +629,8 @@ input:checked#message ~ .sceletus-alert.message, input:checked#success ~ .scelet
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .row {
@@ -651,8 +651,8 @@ input:checked#message ~ .sceletus-alert.message, input:checked#success ~ .scelet
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -1rem;
-  margin-left: -1rem;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .row.reverse {
