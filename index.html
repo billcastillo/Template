@@ -25,8 +25,7 @@
         <link rel="stylesheet" href="css/style.css">
 
         <!-- ICON FONTS -->
-        <!--
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
 
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         
@@ -48,7 +47,7 @@
         <div class="container-fluid">
 
             <section class="row center-xs middle-xs
-                    main-section animate slideInUp" data-wow-duration="1.5s">
+                    main-section animate fadeIn" data-wow-duration="1.5s">
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
                     <div class="box">
 
@@ -66,7 +65,7 @@
 
             <section class="row center-xs
                         second-section animate fadeIn" id="second-section"
-                        data-wow-duration="1.5s" data-wow-delay="1s">
+                        data-wow-duration="1.5s">
                 <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8">
 
                         <div class="description-card">
@@ -77,6 +76,30 @@
                         </div>
                 </div>
             </section> <!--2nd Section End-->
+
+            <section class="gallery">
+                <h2>Gallery</h2>
+                <div id="gallery-1" class="row middle-xs center-xs">
+                    <a class="chocolat-image col-xs-4 col-md-2" href="https://unsplash.it/1000/1000?image=100" title="Title here">
+                        <img src="https://unsplash.it/250/250?image=100" alt="">
+                    </a>
+                    <a class="chocolat-image col-xs-4 col-md-2" href="https://unsplash.it/1000/1000?image=200" title="Title here">
+                        <img src="https://unsplash.it/250/250?image=200" alt="">
+                    </a>
+                    <a class="chocolat-image col-xs-4 col-md-2" href="https://unsplash.it/1000/1000?image=350" title="Title here">
+                        <img src="https://unsplash.it/250/250?image=350" alt="">
+                    </a>
+                    <a class="chocolat-image col-xs-4 col-md-2" href="https://unsplash.it/1000/1000?image=400" title="Title here">
+                        <img src="https://unsplash.it/250/250?image=400" alt="">
+                    </a>
+                    <a class="chocolat-image col-xs-4 col-md-2" href="https://unsplash.it/1000/1000?image=500" title="Title here">
+                        <img src="https://unsplash.it/250/250?image=500" alt="">
+                    </a>
+                    <a class="chocolat-image col-xs-4 col-md-2" href="https://unsplash.it/1000/1000?image=600" title="Title here">
+                        <img src="https://unsplash.it/250/250?image=600" alt="">
+                    </a>
+                </div>
+            </section>
 
         </div> <!--Content End-->
 
@@ -89,7 +112,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -97,6 +119,14 @@
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+
+            $(function(){
+                $('#gallery-1').Chocolat({
+                    imageSize: 'cover',
+                    loop: true
+                });
+            });
+
         </script>
     </body>
 </html>
