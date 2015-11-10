@@ -116,13 +116,10 @@ p {
 .gallery {
   height: 80vh;
 }
-<<<<<<< HEAD
+
 .gallery h2 {
-=======
-.gallery h1 {
->>>>>>> master
-  text-align: center;
   margin: 1em auto;
+  text-align: center;
 }
 .gallery #gallery-1 a {
   padding: 0;
