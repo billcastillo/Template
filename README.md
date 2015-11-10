@@ -37,7 +37,7 @@ Made for my own reference
 * Add option to add ani js animation
 
 ### Known Issues
-* Flexbox doesn't work on IE 10/11 if min-height is used on the parent element
+* [Flexbox doesn't work on IE 10/11 if min-height is used on the parent element](https://connect.microsoft.com/IE/feedback/details/802625/min-height-and-flexbox-flex-direction-column-dont-work-together-in-ie-10-11-preview)
 
 #### Changelog
 
